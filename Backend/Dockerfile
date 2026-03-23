@@ -25,7 +25,7 @@ COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /seed.json ../seed.json
 COPY Backend/docker-entrypoint.sh ./docker-entrypoint.sh
 
-RUN chmod +x ./docker-entrypoint.sh
+RUN chmod +x ./docker-entrypoint.sh && sed -i 's/\r$//' ./docker-entrypoint.sh
 
 EXPOSE 3000
 

@@ -302,7 +302,7 @@ onMounted(loadData);
 
     <section class="hero-card">
       <div>
-        <h1>Control mensual de riders, entregas y comisiones</h1>
+        <h1>Control de riders, entregas y comisiones</h1>
       </div>
       <div class="hero-actions">
         <button class="primary-button" type="button" @click="openCreateDeliveryModal">
