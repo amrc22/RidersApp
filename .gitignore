@@ -1,0 +1,7 @@
+Backend/node_modules
+Backend/dist
+Frontend/node_modules
+Frontend/dist
+.DS_Store
+*.exe
+postgresql-18.3-2-windows-x64.exe
